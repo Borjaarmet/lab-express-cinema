@@ -28,9 +28,88 @@ button {
     border-radius: 25px;
     font-weight: bold;
 }
+button:hover{
+    box-shadow:3px 3px cadetblue;
+}
 
 a {
     color: teal;
     text-decoration: none;
     font-size: medium;
+}
+
+/*   movies   */
+
+h1,h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container2{
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.image{
+    width: 100%;
+}
+.movies{
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: cadetblue;
+    color: white;
+
+}
+.movies:hover{
+    box-shadow: 5px 5px teal;
+}
+h3{
+    max-width: max-content;
+    padding: 3px;
+    
+}
+.link{
+    color:  cadetblue;
+}
+
+/*   movieDetails   */
+
+.container3{
+   
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    background-color: cadetblue;
+    color: white;
+    padding:20px;
+}
+.img{
+    margin-right: 40px;
+}
+.imageDetail{
+
+}
+.textDetail{
+
+}
+.titleDetail{
+    text-align: left;
+    font-weight: bold;
+    text-decoration-line: underline ;
+}
+
+.btn{
+    
+    padding: 15px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-left: 50px;
+  
+}
+.button:hover{
+    box-shadow:3px 3px cadetblue; 
 }
